@@ -1,5 +1,5 @@
-# Agamastack 
-Dev stack for modern apps in **Typescript** and **GraphQL**
+# Agamastack for modern apps in **Typescript** and **GraphQL**
+Dev stack contains Backend and Frontend *servers*
 
 # Backend
  based on yoga server + typescript
@@ -17,9 +17,6 @@ or for generating typescript only
 ```
  npm run codegen
 ```
-
-
-
 
 # Frontend
  will be available soon
