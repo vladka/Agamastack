@@ -1,0 +1,7 @@
+{
+    "watch": ["**/*.ts", "graphql/schema.graphql"],
+    "execMap": {
+       "ts": "ts-node --compilerOptions \"{\\\"module\\\":\\\"commonjs\\\"}\"",
+       "graphql": "graphql codegen"
+    }
+}

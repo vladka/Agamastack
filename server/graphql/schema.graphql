@@ -1,0 +1,16 @@
+
+ type Query {
+    getPost(id: String): IPost!
+    #https://github.com/prisma/prisma-binding/issues/192
+    getAllPosts(where: String): [IPost]!
+  }
+
+# Schema Types
+type IPost {
+  id: String!
+  title: String!
+  desc: String!
+  author: String!
+}
+
+
