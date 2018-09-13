@@ -1,5 +1,5 @@
 # Agamastack 
-Dev stack for modern apps in **Typescript**
+Dev stack for modern apps in **Typescript** and **GraphQL**
 
 # Backend
  based on yoga server + typescript
@@ -11,13 +11,21 @@ Dev stack for modern apps in **Typescript**
 
 ```
 
+then visit http://localhost:4000
+
+or for generating typescript only
+```
+ npm run codegen
+```
+
+
+
+
 # Frontend
  will be available soon
 
 
-
-
-## Directory structure
+# Directory structure
 ```
 Server - Backend server
 Common
