@@ -4,7 +4,7 @@ Dev stack for modern apps in **Typescript**
 # Backend
  based on yoga server + typescript
 ```
- git clone ...
+ git clone git@github.com:vladka/Agamastack.git
  cd server
  npm install
  npm run dev
