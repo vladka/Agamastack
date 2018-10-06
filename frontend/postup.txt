@@ -1,0 +1,30 @@
+1)mkdir frontend3
+cd frontend3
+npm init -y
+npm install --save react react-dom next
+mkdir pages
+
+
+2) pridani typescriptu
+dle navodu https://github.com/zeit/next-plugins/tree/master/packages/next-typescript/#readme
+
+3) navod na dynamicke stranky dle 
+https://nextjs.org/learn/basics/create-dynamic-pages
+
+4) navod Clean URLs with Route Masking
+https://nextjs.org/learn/basics/clean-urls-with-route-masking
+
+5) demo data fetching - dle navodu https://nextjs.org/learn/basics/fetching-data-for-pages
+
+6)pridani demo global stylu + mardownu dle navodu https://nextjs.org/learn/basics/styling-components/global-styles
+
+7)zmena stranek (pages/*.js) z js na ts
+
+8)přechod na nodemon + typescript pro server (dle návodu https://github.com/zeit/next.js/tree/canary/examples/custom-server-typescript)
+
+TODO: https://github.com/prismagraphql/graphql-yoga
+jak na apollo https://github.com/prismagraphql/graphql-yoga/blob/master/examples/fullstack/frontend/src/App.js, ale lepší as NEXTu
+
+zajimave https://github.com/prismagraphql/serverless-plugin-typescript
+
+spousta informaci o NExtu https://github.com/unicodeveloper/awesome-nextjs
