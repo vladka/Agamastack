@@ -4,7 +4,7 @@
   "description": "Minimal Prisma example with GraphQL Yoga and Typescript",
   "main": "index.ts",
   "scripts": {
-    "startts": "nodemon src/index.ts",
+    "startts": "ts-node src/index.ts  --debug-brk=9229",
     "codegen": "prisma-binding   --language typescript   --input graphql/schema.graphql   --outputBinding ../common/src/generated/prisma.ts",
     "dev": "npm-run-all codegen startts",
     "start": "npm-run-all codegen startts",
