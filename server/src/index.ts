@@ -18,7 +18,7 @@ const resolvers = {
 const findPost = (id:string)=>{
   const result : IPost =  {
     id: id,
-    title: "demo",
+    title: "demo_"+id,
     desc: "description",
     author: "uknown"
     
