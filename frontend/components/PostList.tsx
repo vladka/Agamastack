@@ -31,13 +31,14 @@ const PostList: React.SFC<any> = props =>
         if (x.error) return <p>Error :(</p>;
         const items = x.data.getAllPosts;
         return (<div>
-          <h1>Zpevnik {props.id} {props.name}</h1>
+          <h1>Postlist {props.id} {props.name}</h1>
           <pre>{JSON.stringify(x.data, null, 4)}</pre>
+          
           <List>
 
             {items.map((item, index) => (
               
-              <Link key={item.id} as={`/${item.id}/${item.title}`} href={`/posts?id=${item.id}&title=${item.title}`}>
+              <Link key={index} as={`/${item.id}/${item.title}`} href={`/index?id=${item.id}&title=${item.title}`}>
                 <ListItem component="a" button>
                   <ListItemIcon>
                   <DashboardIcon />
@@ -45,21 +46,7 @@ const PostList: React.SFC<any> = props =>
                   <ListItemText primary={item.title} />
                 </ListItem>
               </Link>
-              
-              
-
-              // <ListItem button key={item.id}>
-              //   <ListItemIcon>
-                  
-              //   </ListItemIcon>
-
-              //   <ListItemText>
-              //     <Link as={`/${item.id}/${item.title}`} href={`/posts?id=${item.id}&title=${item.title}`}>
-              //       <a>{item.title}</a>
-              //     </Link>
-              //   </ListItemText>
-              // </ListItem>
-
+      
             ))}
             <Divider />
             <ListItem button>
