@@ -43,8 +43,9 @@ class SidePanel extends React.Component<IWithSidebar,SidePanelState> {
 
   render = () =>{
     const panel = (<div>
-      <SidebarMenu onClose={()=>this.props.onSetOpen(false)}/>
-       <div style={{height:'100vh', overflow:'auto'}}>{this.props.sidebar}
+      <SidebarMenu onClose={()=>this.props.onSetOpen(false)}  />
+       <div style={{height:'calc(100vh - 62px)', overflowY:'auto', overflowX: 'hidden', maxWidth:'400px', marginTop: '62px'}}>
+          {this.props.sidebar}
        </div>
       </div>
     )

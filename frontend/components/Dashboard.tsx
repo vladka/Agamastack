@@ -67,8 +67,10 @@ const styles = (theme:Theme) => ({
     flexGrow: 1,
     padding: theme.spacing.unit * 3,
     paddingRight:'0px',
-    height: '100vh',
-    overflow: 'auto',
+    height:'calc(100vh - 62px)', 
+    overflowY:'auto', 
+    overflowX: 'hidden', 
+    marginTop: '62px'
   },
   chartContainer: {
     marginLeft: -22,
