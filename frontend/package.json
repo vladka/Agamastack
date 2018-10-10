@@ -1,15 +1,16 @@
 {
-  "name": "frontend3",
+  "name": "agamastackfrontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "frontend based on NextJs(React) + graphQL(apollo) + Typescript",
+  "main": "server/index.js",
   "scripts": {
-    "dev": "ts-node server/index.ts",
+    "startts": "ts-node server/index.ts",
     "build": "next build && tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node .next/production-server/index.js",
     "readScheme": "apollo-codegen introspect-schema http://localhost:4000 --output generated/schema.json",
     "generateTypes": "apollo-codegen generate lib/queries.ts --addTypename --schema generated/schema.json --target typescript --output generated/queryTypes.ts",
-    "codegen": "npm-run-all readScheme generateTypes"
+    "codegen": "npm-run-all readScheme generateTypes",
+    "dev": "npm-run-all codegen startts"
   },
   "keywords": [],
   "author": "",

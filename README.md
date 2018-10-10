@@ -19,7 +19,16 @@ or for generating typescript only
 ```
 
 # Frontend
- will be available soon
+Boilerplate for ReactApp
+based on React, NextJS, Typescript, GraphQL.
+Redux is not necessary, becasue of 'GraphQL local cache' is very good replacement of Redux
+
+Before running frontend, be sure frondend id already running
+```
+ cd frontend
+ npm install
+ npm run dev
+```
 
 
 # Directory structure
