@@ -23,7 +23,7 @@ Boilerplate for ReactApp
 based on React, NextJS, Typescript, GraphQL.
 Redux is not necessary, becasue of 'GraphQL local cache' is very good replacement of Redux
 
-Before running frontend, be sure frondend id already running
+Before running frontend, be sure frondend is already running
 ```
  cd frontend
  npm install
@@ -33,9 +33,9 @@ Before running frontend, be sure frondend id already running
 
 # Directory structure
 ```
-Server - Backend server
+Server - Backend GRAPHQL server
 Common
-Frontend (not yet available)
+Frontend - NextJS application
 
 ```
   
