@@ -20,8 +20,9 @@ or for generating typescript only
 
 # Frontend
 Boilerplate for ReactApp
-based on React, NextJS, Typescript, GraphQL.
-Redux is not necessary, becasue of 'GraphQL local cache' is very good replacement of Redux
+based on React, NextJS, Typescript, GraphQL and Material design.
+Material design skins are supported, current skin is stored in 'GraphQL local cache'.
+Redux is not necessary, because of 'GraphQL local cache' is very good replacement of Redux
 
 Before running frontend, be sure frondend is already running
 ```
